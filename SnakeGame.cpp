@@ -66,10 +66,10 @@ void Draw()
 				cout << "#";
 
 			if (i == y && j == x)//head
-				cout << "0";
+				cout << "O";
 
 			else if (i == fruitY && j == fruitX)//fruit
-				cout << "O";
+				cout << "0";
 
 			else
 			{
@@ -78,7 +78,7 @@ void Draw()
 				{
 					bool print = false;
 					if (tailX[k] == j && tailY[k] == i)//tail
-						cout << "0";
+						cout << "O";
 					    print = true;
 					
 					if (!print)//if no tail
