@@ -69,7 +69,7 @@ void Draw()
 				cout << "0";
 
 			else if (i == fruitY && j == fruitX)//fruit
-				cout << "F";
+				cout << "O";
 
 			else
 			{
@@ -200,7 +200,7 @@ int main() {
 		Input(); //input
 		Logic(); //logic
 
-		Sleep(30); 
+		Sleep(10); 
 
 	}
 
